@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -35,4 +35,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Receipt{
+  margin-bottom: 1rem;
+  border: 2px dashed black;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
