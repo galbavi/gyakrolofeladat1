@@ -7,7 +7,7 @@ class Ingredients extends React.Component {
     return (
       <ul>
         {this.props.ingredients.map((item) => {
-          return <Ingredient ingredient={item} />;
+          return <Ingredient key={item} ingredient={item} />;
         })}
       </ul>
     );

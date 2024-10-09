@@ -13,7 +13,7 @@ const recipes = [
     difficulty: 3
   },
   {
-    id: 1,
+    id: 2,
     name: "Tükörtojás",
     ingredients: [
       "3 tojás",
@@ -24,7 +24,7 @@ const recipes = [
     difficulty: 4
   },
   {
-    id: 1,
+    id: 3,
     name: "Kávé",
     ingredients: [
       "kávé",
@@ -39,11 +39,9 @@ const recipes = [
 function App() {
   return (
     <div className="App">
-      <table>
         {recipes.map(item => {
           return (<Receipt key={item.id} data={item}/>)
         })}
-      </table>
     </div>
   );
 }
